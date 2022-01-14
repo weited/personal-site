@@ -1,0 +1,196 @@
+.menu {
+    padding-top: 2rem;
+    overflow:visible;
+        &__item {
+            margin: 0 6px 6px 0;
+            float: left;
+            background-color: #fff;
+            position: relative;
+            // height: 135px;
+            // width: 135px;
+            // padding: 48px;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 18px 18px 48px rgb(108 99 255 / 10%);
+            transition: all .3s ease;
+            // width: 95px;
+            .menu__btn {
+                color: #000; 
+                transition: all .5s ease;
+                &:hover .menu__title {
+                    left: 95px;
+                }
+            }
+            .nav-link.active {
+                background-color: #ff451b;
+                .menu__title {
+                    left:95px;
+
+                }
+            }
+
+            &:nth-child(1) {
+                .active {
+                    width: 254px;
+                }
+                .menu__btn {
+                    &:hover {
+                        width: 254px;
+                    }
+                }
+                // &:hover {
+                //     width: 254px;
+
+                // }
+            }
+
+            &:nth-child(2) {
+                .active {
+                    width: 238px;
+                }
+                .menu__btn {
+                    &:hover {
+                        width: 238px;
+                    }
+                }
+                
+            }
+
+            &:nth-child(3) {
+                .active {
+                    width: 242px;
+                }
+                .menu__btn {
+                    &:hover {
+                        width: 242px;
+                    }
+                }
+            }
+
+            &:nth-child(4) {
+                .active {
+                    width: 280px;
+                }
+                .menu__btn {
+                    &:hover {
+                        width: 280px;
+                    }
+                }
+            }
+
+            &:nth-child(5) {
+                .active {
+                    width: 238px;
+                }
+                .menu__btn {
+                    &:hover {
+                        width: 238px;
+                    }
+                }
+            }
+    }
+
+    &__btn {
+        position: relative;
+        width: 135px;
+        height: 135px;
+         
+        .bi {
+            width: 3rem;
+            height: 3rem;
+        } 
+        // overflow: hidden;
+    }
+
+    @media (max-width: 1400px) {
+    
+            
+        &__btn {
+                width: 95px;
+                height: 95px;
+                padding: 35px;
+        }
+    
+    }
+
+    @media (max-width: 1200px) {
+    
+            
+        &__btn {
+                height: 75px;
+        }
+    
+    }
+
+    &__icon {
+        position: absolute;
+        left: 67.5px;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%) ;
+    }
+
+    @media (max-width: 1400px) {
+        &__icon {
+            left: 47.5px;
+        }
+    }
+
+    &__title {
+        position: absolute;
+        left: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        white-space: nowrap;
+        transition: all .3s ease;
+        font-weight: 700;
+        font-size: 2.3rem;
+    }
+
+}
+
+
+
+
+// .nav-pills .nav-link.active {}
+
+// .know_tm_hero .main_menu ul li:nth-child(2).react-tabs__tab--selected {
+//     width: 238px
+// }
+
+
+
+@media (max-width: 1200px) { 
+    .menu__item {
+        width: 100%;
+    }
+
+    .menu__btn {
+        width: 100%!important;
+    }
+    .menu__title {
+        left: 95px;
+    }
+ }
+
+
+.tab-contact__btn {
+    border: none;
+    outline: none;
+    padding: 18px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    background-color: #ff451b;
+    padding: 14px 50px;
+    border-radius: 10px;
+    white-space: nowrap;
+    transition: all .3s ease;
+
+    &:hover {
+        background-color: #ffb324;
+    }
+}
+

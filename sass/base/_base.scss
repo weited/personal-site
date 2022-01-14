@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    @media (max-width: 1199.98px) { 
+        font-size: 50%;
+     }
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    // background-color: #ccc;
+    
+}
+
+.container {
+    // max-width: 1400px;
+    // background-color: #cc8;
+    // border: 2px solid black;
+}
+
+ol,
+ol li,
+ul,
+ul li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+
