@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -65,25 +64,6 @@ ul {
   list-style: none;
 }
 
-a {
-  /* 小手 */
-  cursor: pointer;
-  /* 取消超链接的默认下划线 */
-  text-decoration: none;
-  /* antd里面还做了 ， 看你团队需不需要这样的风格 */
-  transition: color 0.3s ease;
-}
-
-a {
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  font-style: inherit;
-  line-height: inherit;
-  color: inherit;
-  outline: none;
-}
-
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -95,12 +75,7 @@ body {
   color: #888;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   color: #222;
 }
@@ -121,7 +96,7 @@ h4 {
 }
 .heading-primary--sub {
   display: inline-block;
-  color: #47b5ff;
+  color: #4447ff;
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 5px;
@@ -133,7 +108,7 @@ h4 {
 }
 .heading-secondary--sub {
   font-size: 21px;
-  color: #47b5ff;
+  color: #4447ff;
   font-weight: 700;
   display: inline-block;
   margin-bottom: 6px;
@@ -154,7 +129,7 @@ h4 {
   width: 24px;
   height: 24px;
   border-radius: 100%;
-  border: 3px solid #47b5ff;
+  border: 3px solid #ff451b;
 }
 .heading-tertiary-icon:before {
   position: absolute;
@@ -162,7 +137,7 @@ h4 {
   width: 8px;
   height: 8px;
   border-radius: 100%;
-  background-color: #47b5ff;
+  background-color: #ff451b;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -191,7 +166,7 @@ h4 {
 .education__year,
 .experience__year {
   font-size: 20px;
-  color: #47b5ff;
+  color: #ff451b;
   display: inline-block;
   border: 1px solid #ddd;
   border-radius: 50px;
@@ -256,7 +231,7 @@ h4 {
   left: 95px;
 }
 .menu__item .nav-link.active {
-  background-color: #47b5ff;
+  background-color: #ff451b;
 }
 .menu__item .nav-link.active .menu__title {
   left: 95px;
@@ -357,7 +332,7 @@ h4 {
   text-transform: uppercase;
   font-weight: 600;
   display: inline-block;
-  background-color: #47b5ff;
+  background-color: #ff451b;
   padding: 14px 50px;
   border-radius: 10px;
   white-space: nowrap;
@@ -449,7 +424,7 @@ footer {
   background-color: #cd201f;
 }
 .header__social-menu ul li:nth-child(5) a:hover {
-  background-color: #0077b5;
+  background-color: #0077B5;
 }
 
 .banner {
@@ -463,7 +438,7 @@ footer {
   left: 0;
   width: 76%;
   height: 100vh;
-  background-color: #dff6ff;
+  background-color: #f1faff;
   -webkit-clip-path: polygon(100% 0, 81% 86%, 0 100%, 0 0);
   clip-path: polygon(100% 0, 81% 86%, 0 100%, 0 0);
 }
@@ -578,7 +553,7 @@ footer {
   width: 47%;
   left: -55px;
   margin-top: 55px;
-  background-color: #47b5ff;
+  background-color: #ff451b;
   padding: 36px 40px 35px;
   z-index: 1;
   border-radius: 15px;
@@ -622,7 +597,7 @@ footer {
   text-transform: uppercase;
   font-weight: 600;
   display: inline-block;
-  background-color: #47b5ff;
+  background-color: #4447ff;
   padding: 14px 50px;
   border-radius: 10px;
   white-space: nowrap;
@@ -638,7 +613,7 @@ footer {
 .tab-resume__heading {
   position: relative;
 }
-.tab-resume__details > :last-child {
+.tab-resume__details:last-child {
   padding-left: 4rem;
 }
 
@@ -679,7 +654,7 @@ footer {
   right: 10%;
   bottom: -5px;
   transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
-  color: #47b5ff;
+  color: #ff451b;
   font-family: "Poppins";
 }
 .skills-personal__level-bar {
@@ -687,7 +662,7 @@ footer {
 }
 .skills-personal__level-bar-in {
   height: 5px;
-  background: #47b5ff;
+  background: #ff451b;
   overflow: hidden;
   border-radius: 50px;
   position: relative;
@@ -742,4 +717,4 @@ footer {
   text-decoration: none;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */

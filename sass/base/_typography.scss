@@ -1,133 +1,137 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 1.8rem;
-    /*font-size: 16px;*/
-    line-height: 1.5;
-    letter-spacing: 0;
-    word-wrap: break-word;
-    // color: $color-grey-dark;
-    color:#888;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  /*font-size: 16px;*/
+  line-height: 1.5;
+  letter-spacing: 0;
+  word-wrap: break-word;
+  // color: $color-grey-dark;
+  color: #888;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    line-height: 1.2;
-    color: #222;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  color: #222;
 }
-
 
 h4 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 11px;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 11px;
 }
 
 .heading-primary {
-    font-size: 12rem;
-    font-weight: 700;
-    line-height: 1.1;
-    margin-bottom: 2.2rem;
-    word-wrap:normal;
-    letter-spacing: .5rem;
+  font-size: 12rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 2.2rem;
+  word-wrap: normal;
+  letter-spacing: 0.5rem;
 
-    &--sub {
-        display: inline-block;
+  &--sub {
+    display: inline-block;
     color: $color-primary;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 5px;
-    }
+  }
 }
 .heading-secondary {
-    font-size: 4.7rem;
+  font-size: 4.7rem;
+  font-weight: 700;
+  &--sub {
+    font-size: 21px;
+    color: $color-primary;
     font-weight: 700;
-    &--sub {
-        font-size: 21px;
-        color: $color-primary;
-        font-weight: 700;
-        display: inline-block;
-        margin-bottom: 6px;
-    }
+    display: inline-block;
+    margin-bottom: 6px;
+  }
 }
 
 .heading-tertiary {
-    font-size: 3.6rem;
-    font-weight: 700;
-    padding-left: 4rem;
+  font-size: 3.6rem;
+  font-weight: 700;
+  padding-left: 4rem;
 
-    &-icon {
-        display: inline-block;
-        position: absolute;
-        left: 0;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        transform: translateY(-50%);
-        width: 24px;
-        height: 24px;
-        border-radius: 100%;
-        border: 3px solid #ff451b;
+  &-icon {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    border: 3px solid $color-primary;
 
-        &:before {
-            position: absolute;
-            content: "";
-            width: 8px;
-            height: 8px;
-            border-radius: 100%;
-            background-color: #ff451b;
-            top: 50%;
-            left: 50%;
-            -webkit-transform: translate(-50%,-50%);
-            transform: translate(-50%,-50%);
-                }
+    &:before {
+      position: absolute;
+      content: '';
+      width: 8px;
+      height: 8px;
+      border-radius: 100%;
+      background-color: $color-primary;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
     }
+  }
 }
 
 .bigger-text {
-    padding: 2.5rem 0;
-    font-size: 2.2rem;
-    font-weight: 500;
-    color: #222;
-    line-height: 1.6;
+  padding: 2.5rem 0;
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #222;
+  line-height: 1.6;
 }
 
 .paragraph {
-    color: #888;
-    // font-size: $default-font-size;
-    margin-bottom: 4rem;
-    &:not(:last-child) {
-        margin-bottom: 2rem;
-    }
+  color: #888;
+  // font-size: $default-font-size;
+  margin-bottom: 4rem;
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
 
-    &-italic {
-        font-style: italic;
-    }
+  &-italic {
+    font-style: italic;
+  }
 }
 
 .education__year,
 .experience__year {
-    font-size: 20px;
-    color: #ff451b;
-    display: inline-block;
-    border: 1px solid #ddd;
-    border-radius: 50px;
-    padding: 8px 35px 7px;
-    white-space: nowrap
+  font-size: 20px;
+  color: $color-primary;
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  padding: 8px 35px 7px;
+  white-space: nowrap;
 }
 
 .education__sub-name,
 .experience__job-name {
-    font-size: 2.4rem;
-    font-weight: 700;
-    margin-bottom: .8rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
 }
 .education__org,
 .experience__org {
-    font-size: 2rem;
-    color: #555;
+  font-size: 2rem;
+  color: #555;
 }
 
 .title-label {
-    color: #0f172a;
-    font-size: 21px;
-    font-weight: 700;
+  color: #0f172a;
+  font-size: 21px;
+  font-weight: 700;
 }
